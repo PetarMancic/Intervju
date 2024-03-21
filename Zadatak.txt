@@ -1,0 +1,14 @@
+Napraviti nov projekat sa npx create-react-app.
+Napraviti HomePage (početnu stranicu) i InfoPage stranice.
+
+Home page treba da sadrži sliku koja zauzima ceo ekran (slika po izboru). Aspect ratio slike treba uvek da bude nepromenjen nezavisno od veličine ekrana.
+Centralizovano (horizontalno i vertikalno) preko slike treba da ide h1 tekst sa imenom kandidata. Voditi računa da pri resize-ovanju stranice, tekst ne izlazi van ekrana.
+Ispod slike u levoj polovini ekrana treba da stoji tekst (lorem ipsum, 2 paragrafa. Online generator: https://loremipsum.io/generator/).
+Ispod slike u desnoj polovini ekrana na vrhu treba da stoji input polje i dugme "Generate" (u istom redu). U input polje se upisuje broj a klikom na dugme "Generate" generiše se niz nasumičnih brojeva (onoliko koliko si naveo u input polju). Voditi računa da je u input polje unet broj (a ne slova).
+Taj niz nasumičnih brojeva treba prikazati ispod polja i dugmeta kao vertical bullet list.
+
+
+Info page urediti po izboru. Info page treba da sadrži informacije o kandidatu (recimo iz CV-a). Do info page se dolazi klikom na sliku sa početne (home) stranice.
+Takođe, info page treba da sadrži back dugme koje te vraća na početnu stranicu. Pozicija dugmeta je donji desni ugao ekrana.
+
+Srećno!
