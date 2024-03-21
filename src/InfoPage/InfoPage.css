@@ -1,0 +1,27 @@
+.goToHome {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.spoljni {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(235, 234, 234);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}

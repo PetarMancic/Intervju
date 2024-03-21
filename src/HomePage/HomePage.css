@@ -1,0 +1,61 @@
+.DivImgBg {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% visine ekrana */
+    overflow: hidden;
+    
+}
+
+.divImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+
+}
+
+.buttonHome {
+  position: absolute;
+}
+
+.h1tekst {
+    position: absolute;
+    text-align: center; /* Centriranje teksta horizontalno */
+    color: white; /* Boja teksta */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Centriranje prema sredini */
+  }
+  
+
+  .ispodSlikeTekst {
+    position: absolute;
+    bottom: 10px; /* Postavi tekst 10 piksela ispod donjeg dela slike */
+    left: 50%; /* Centriraj tekst horizontalno */
+    transform: translateX(-50%); /* Centriraj tekst horizontalno */
+    color: white; /* Boja teksta */
+    text-align: center; /* Centriranje teksta */
+  }
+
+  
+
+  .underImg {
+    display: flex; /* Koristi fleksibilni model */
+  }
+  
+  .leftSide {
+    flex: 1; /* Daje 1 deo prostora */
+    }
+  
+  .rightSide {
+    flex: 1; /* Daje 1 deo prostora */
+    text-align: right; /* Poravnavanje teksta u desno */
+  }
+
+  .LiBrojevi
+  {
+    width:20px;
+    margin-left: 40px;
+  };
