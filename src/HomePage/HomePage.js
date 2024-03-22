@@ -23,10 +23,17 @@ const HomePage = () => {
   const generisiBrojeve = () => {
     nizBrojeva.length = 0; //da ocistim niz
 
-    for (let i = 0; i < brojSlova; i++) {
-      nizBrojeva.push(Math.floor(Math.random() * 100));
+   
+    if (brojSlova !== "") {
+      for (let i = 0; i < brojSlova; i++) {
+        nizBrojeva.push(Math.floor(Math.random() * 100));
+
+        setNizBrojeva([...nizBrojeva]);
+      }
+    } else {
+      setNizBrojeva([...[]]);
     }
-    setNizBrojeva([...nizBrojeva]);
+
     localStorage.setItem("nizBrojeva", nizBrojeva);
   };
 
