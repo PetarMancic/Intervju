@@ -21,7 +21,7 @@ const HomePage = () => {
   };
 
   const generisiBrojeve = () => {
-    nizBrojeva.length = 0; //da ocistim niz
+    nizBrojeva.length = 0; 
 
    
     if (brojSlova !== "") {

@@ -1,9 +1,8 @@
 .DivImgBg {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* 100% visine ekrana */
-    overflow: hidden;
-    
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .divImg {
@@ -12,8 +11,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;  
-
+  object-fit: cover;
 }
 
 .buttonHome {
@@ -21,41 +19,37 @@
 }
 
 .h1tekst {
-    position: absolute;
-    text-align: center; /* Centriranje teksta horizontalno */
-    color: white; /* Boja teksta */
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); /* Centriranje prema sredini */
-  }
-  
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .ispodSlikeTekst {
-    position: absolute;
-    bottom: 10px; /* Postavi tekst 10 piksela ispod donjeg dela slike */
-    left: 50%; /* Centriraj tekst horizontalno */
-    transform: translateX(-50%); /* Centriraj tekst horizontalno */
-    color: white; /* Boja teksta */
-    text-align: center; /* Centriranje teksta */
-  }
+.ispodSlikeTekst {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
 
-  
+.underImg {
+  display: flex;
+}
 
-  .underImg {
-    display: flex; /* Koristi fleksibilni model */
-  }
-  
-  .leftSide {
-    flex: 1; /* Daje 1 deo prostora */
-    }
-  
-  .rightSide {
-    flex: 1; /* Daje 1 deo prostora */
-    text-align: right; /* Poravnavanje teksta u desno */
-  }
+.leftSide {
+  flex: 1;
+}
 
-  .LiBrojevi
-  {
-    width:20px;
-    margin-left: 40px;
-  };
+.rightSide {
+  flex: 1;
+  text-align: right;
+}
+
+.LiBrojevi {
+  width: 20px;
+  margin-left: 40px;
+}

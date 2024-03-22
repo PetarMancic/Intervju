@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./InfoPage.css";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 
 const InfoPage = () => {
   const navigate = useNavigate();
@@ -12,20 +12,17 @@ const InfoPage = () => {
   return (
     <>
       <div className="spoljni">
-      
-      <Button
-  variant="contained"
-  sx={{
-    
-    position: 'fixed',
-    bottom: '20px',
-    right: '20px',
-  }}
-  onClick={goBack}
->
-  Go Back
-</Button>
-
+        <Button
+          variant="contained"
+          sx={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+          }}
+          onClick={goBack}
+        >
+          Go Back
+        </Button>
 
         <div class="sectionInfo">
           <h1>Petar Mancic</h1>
